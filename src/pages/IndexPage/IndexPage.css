@@ -1,23 +1,24 @@
-.index-page__links {
-  list-style: none;
-  padding-left: 0;
+#App {
+  background-image: linear-gradient(
+          35deg,
+          hsl(240deg 30% 16%) 0%,
+          hsl(242deg 32% 18%) 7%,
+          hsl(243deg 34% 20%) 14%,
+          hsl(246deg 36% 22%) 21%,
+          hsl(246deg 38% 25%) 29%,
+          hsl(249deg 40% 27%) 36%,
+          hsl(252deg 42% 29%) 43%,
+          hsl(253deg 44% 31%) 50%,
+          hsl(254deg 47% 33%) 57%,
+          hsl(256deg 48% 35%) 64%,
+          hsl(258deg 50% 38%) 71%,
+          hsl(260deg 52% 40%) 79%,
+          hsl(262deg 54% 42%) 86%,
+          hsl(264deg 56% 44%) 93%,
+          hsl(265deg 58% 46%) 100%
+  );
 }
 
-.index-page__link {
-  font-weight: bold;
-  display: inline-flex;
-  gap: 5px;
-}
-
-.index-page__link-item + .index-page__link-item {
-  margin-top: 10px;
-}
-
-.index-page__link-icon {
-  width: 20px;
-  display: block;
-}
-
-.index-page__link-icon svg {
-  display: block;
+img {
+  filter: brightness(90%);
 }

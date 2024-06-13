@@ -36,7 +36,7 @@ const Inner: FC = () => {
   return (
     <TonConnectUIProvider manifestUrl={manifestUrl}>
       <SDKProvider acceptCustomStyles debug={debug}>
-        <App/>
+          <App/>
       </SDKProvider>
     </TonConnectUIProvider>
   );
